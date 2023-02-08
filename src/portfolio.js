@@ -23,13 +23,13 @@ const about = {
 const projects = [
   // projects can be added an removed
   // if there are no projects, Projects section won't show up
-  {
-    name: 'FileMyVisa',
-    description:
-      'Website to prepare U.S. immigration paperwork. It is easy for anyone to understand and complete the United States Immigration Application in their native language.',
-    stack: ['Node.js', 'React.js', 'GCP', 'MySQL'],
-    livePreview: 'https://www.filemyvisa.com/',
-  },
+  // {
+  //   name: 'FileMyVisa',
+  //   description:
+  //     'Website to prepare U.S. immigration paperwork. It is easy for anyone to understand and complete the United States Immigration Application in their native language.',
+  //   stack: ['Node.js', 'React.js', 'GCP', 'MySQL'],
+  //   livePreview: 'https://www.filemyvisa.com/',
+  // },
   {
     name: 'Chat Application (Socket.io)',
     description:
