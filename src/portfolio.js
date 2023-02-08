@@ -23,13 +23,13 @@ const about = {
 const projects = [
   // projects can be added an removed
   // if there are no projects, Projects section won't show up
-  // {
-  //   name: 'FileMyVisa',
-  //   description:
-  //     'Website to prepare U.S. immigration paperwork. It is easy for anyone to understand and complete the United States Immigration Application in their native language.',
-  //   stack: ['Node.js', 'React.js', 'GCP', 'MySQL'],
-  //   livePreview: 'https://www.filemyvisa.com/',
-  // },
+  {
+    name: 'FileMyVisa',
+    description:
+      'Website to prepare U.S. immigration paperwork. It is easy for anyone to understand and complete the United States Immigration Application in their native language.',
+    stack: ['Node.js', 'React.js', 'GCP', 'MySQL'],
+    livePreview: 'https://www.filemyvisa.com/',
+  },
   {
     name: 'Chat Application (Socket.io)',
     description:
@@ -55,12 +55,18 @@ const projects = [
     
   },
   {
-    name: 'Music Store(back end)',
+    name: 'Blog Website',
     description:
-      'MusicStore is able to direct user to the desired page based on its endpoints by track, album,artist and label',
-    stack: ['html-css-javascript', 'sequelize', 'React'],
-    sourceCode: 'https://github.com/Morganbb104/M7-project2-musictore-recommendations-Huang_Chengchien',
-    livePreview: 'https://cheng32-musicstore-catalog.herokuapp.com/track',
+      'A website where people can post their articles/blogs and connect with the relevant audience.',
+    stack: ['React.js', 'Css'],
+    sourceCode: 'https://github.com/NehadAwad/react-blog',
+  },
+  {
+    name: 'Nasa Api',
+    description:
+      'This project is build with nasa-api to monitor nasa missons.',
+    stack: ['React.js', 'Node.js', 'Express', 'Nasa-api'],
+    sourceCode: 'https://github.com/NehadAwad/nasa-mission-control-project',
   },
 ]
 
